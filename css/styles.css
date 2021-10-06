@@ -24,11 +24,12 @@ h3{
 #title{
     background-color: #ff4c68;
     color: #ffffff;
+
 }
 
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 /* Navigqtion Bar  */
@@ -57,11 +58,18 @@ h3{
 .title-img{
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+
 }
 
 /* Features  */
 #features{
     padding: 7% 15%;
+    background: #ffffff;
+    position: relative;
+
+
 }
 #features p{
     font-weight: "Montserrat";
@@ -109,6 +117,12 @@ h3{
     width: 15%;
     margin: 20px 20px 50px;
 }
-/* 
-font-family: 'Montserrat', sans-serif;
-font-family: 'Ubuntu', sans-serif; */
+
+ /* pricing section  */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-coloum{
+    padding: 3% 2%;
+}
